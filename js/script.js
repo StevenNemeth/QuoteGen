@@ -11,3 +11,5 @@ function GetQuote(){
             qAuthor.innerText = response.data.quoteAuthor
         });
 }
+
+GetQuote()
