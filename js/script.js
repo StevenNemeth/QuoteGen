@@ -4,7 +4,7 @@ var qAuthor = document.getElementById('quoteAuthor')
 function GetQuote(){
     axios({
         method: 'get',
-        url: 'http://localhost:3000/GetQuote/',
+        url: 'https://escoutenquotegen.herokuapp.com/GetQuote/',
       })
         .then(function (response) {
             qText.innerText = response.data.quoteText
